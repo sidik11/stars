@@ -6,7 +6,7 @@ const path = require('path');
 
 const app = express();
 const PORT = 3000;
-const STARS_FILE = path.join(__dirname, 'stars_export(1).json');
+const STARS_FILE = path.join(__dirname, 'stars.json');
 
 // Middleware
 app.use(cors());
